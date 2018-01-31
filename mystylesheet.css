@@ -1,6 +1,19 @@
 
 .mainheading{
     text-align:  center;
+    color: white;
+    
 }
     
+.homebody {
+    background-image: url("https://images.pexels.com/photos/167762/pexels-photo-167762.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+}
 
+.menu {
+    text-align: center;
+    background-color:black;
+}
+
+.cvcontent {
+    text-align: center;
+}
