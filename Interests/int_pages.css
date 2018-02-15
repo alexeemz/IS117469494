@@ -1,13 +1,13 @@
 #section1{
-    background-color:rgb(238,0,90);
+    background-image: url("https://images.pexels.com/photos/433935/pexels-photo-433935.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
 }
 
 #section2{
-    background-color:rgb(44, 62, 80);
+    background-image: url("https://images.pexels.com/photos/734102/pexels-photo-734102.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
 }
 
 #section3{
-    background-color:rgb(51,153,204);
+    background-image: url("https://images.pexels.com/photos/62262/pexels-photo-62262.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
 }
 
 .section{
