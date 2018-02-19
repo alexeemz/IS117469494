@@ -19,9 +19,11 @@ html,body{
 }
 
 .cvcontent {
-    text-align: center;
+    text-align:center;
     color:white;
-    z-index:1;
+    z-index: -1;
+    position:relative;
+    
 }
 
 .interestsbody {
@@ -30,15 +32,16 @@ html,body{
 
 .menu{
     text-align:center;
-    z-index:100;
+    z-index:1000;
 }
 
 ul {
     margin:0px;
     padding:0px;
     text-align:center;
-    z-index:100;
+    z-index:1000;
     display:inline;
+    position:relative;
 }
 ul li {
   background-color:black;
@@ -49,26 +52,31 @@ ul li {
     display:inline-block;
     text-align:center;
     list-style:none;
-    z-index:100;
+    z-index:1000;
+    position:relative;
 }
 ul li a {
     color:white;
     text-decoration:none;
     display:block;
-    z-index:100;
+    z-index:1000;
     text-decoration:none
+    position:relative;
 }
 ul li a:hover {
     background-color:silver;
-    z-index:100;
+    z-index:1000;
     text-decoration:none;
     color:white;
+    position:relative;
 }
 ul li ul li {
     display:none;
-    z-index:100;
+    z-index:1000;
+    position:relative;
 }
 ul li:hover ul li {
     display:block;
-    z-index:100;
+    z-index:1000;
+    position:relative;
 }
