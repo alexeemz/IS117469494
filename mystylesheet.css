@@ -33,6 +33,7 @@ html,body{
 .menu{
     text-align:center;
     z-index:1000;
+    font-family:georgia, serif;
 }
 
 ul {
@@ -76,7 +77,7 @@ ul li ul li {
     position:relative;
 }
 ul li:hover ul li {
-    display:block;
+    display:inline-block;
     z-index:1000;
     position:relative;
 }
