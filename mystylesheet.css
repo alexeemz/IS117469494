@@ -8,6 +8,8 @@ html,body{
     height:100%;
 }
 
+
+
 .mainheading{
     text-align: center;
     color: white;
@@ -30,59 +32,52 @@ font-size:20px;
     position:relative;
     
 }
-
-.interestsbody {
-    background-image: url("https://images.pexels.com/photos/399973/pexels-photo-399973.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+nav {
+	margin: 50px 0;
+	background-color: #E64A19;
 }
 
-.menu{
-    text-align:center;
-    z-index:1000;
-    font-family:georgia, serif;
+nav ul {
+	padding: 0;
+  margin: 0;
+	list-style: none;
+	position: relative;
+	}
+	
+nav ul li {
+	display:inline-block;
+	background-color: #E64A19;
+	}
+
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
 }
 
-ul {
-    margin:0px;
-    padding:0px;
-    text-align:center;
-    z-index:1000;
-    display:inline;
-    position:relative;
+nav a:hover { 
+	background-color: #000000; 
 }
-ul li {
-  background-color:black;
-    border:1px solid white;
-    width:126px;
-    height:30px;
-    line-height:30px;
-    display:inline-block;
-    text-align:center;
-    list-style:none;
-    z-index:1000;
-    position:relative;
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main nav */
 }
-ul li a {
-    color:white;
-    text-decoration:none;
-    display:block;
-    z-index:1000;
-    text-decoration:none
-    position:relative;
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
 }
-ul li a:hover {
-    background-color:silver;
-    z-index:1000;
-    text-decoration:none;
-    color:white;
-    position:relative;
-}
-ul li ul li {
-    display:none;
-    z-index:1000;
-    position:relative;
-}
-ul li:hover ul li {
-    display:inline-block;
-    z-index:1000;
-    position:relative;
+	
+/* First Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
 }
