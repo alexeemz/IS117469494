@@ -11,9 +11,14 @@ html,body{
 .mainheading{
     text-align: center;
     color: white;
-    
 }
-    
+.homeparagraph{
+color:white;
+text-align:center;
+font-family:georgia,serif;
+font-size:20px;
+}
+
 .homebody {
     background-image: url("https://images.pexels.com/photos/167762/pexels-photo-167762.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
 }

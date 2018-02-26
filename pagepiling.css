@@ -7,14 +7,51 @@
 }
 
 #section2{
-    background-color:blue;
+    background-image:url("https://images.pexels.com/photos/417045/pexels-photo-417045.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+    color:#022175;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
 #section3{
-    background-color:green;
+    color:#022175;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image:url("https://images.pexels.com/photos/231009/pexels-photo-231009.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+
+}
+
+#section4{
+   color:#022175;
+   background-image:url("https://images.pexels.com/photos/37728/pexels-photo-37728.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#section5{
+    color:#022175;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image:url("https://images.pexels.com/photos/314726/pexels-photo-314726.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
 }
 
 .section{
     text-align: center;
     font-family:Georgia, Serif;
 }
+
+h2 {
+    background-color:black;
+    font-size:30px;
+}
+
+ul li {
+    padding-left:1em;
+    list-style:circle outside;
+}
+
+p{
+    border:white;
+    
+}
+
