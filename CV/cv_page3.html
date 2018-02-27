@@ -4,56 +4,43 @@
 <head>
     <title>Work Experience</title>
     <link rel= "stylesheet" href= "../mystylesheet.css" type = "text/css" />
-    
-    <!-- Adding Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
-<body class = "homebody">
-    <br/>
-       <div class="menu">
-           <ul>
-               <li><a href="homepage.html">Home</a></li>
-               
-               <li><a href="CV/cv_page1.html">Curriculum Vitae</a>
-                   <ul>
-                       <li><a href="../CV/cv_page1.html">Personal Details</a></li>
-                       <li><a href="../CV/cv_page2.html">Education</a></li>
-                       <li><a href="../CV/cv_page3.html">Work Experience</a></li>
-                   </ul>
-               </li>
-               
-               <li><a href="Interests/sports.html">Interests</a>
-                  <ul>
-                      <li><a href="Interests/sports.html">Sports</a></li>
-                      <li><a href="Interests/travel.html">Travel</a></li>
-                      <li><a href="Interest/cloud.html">Cloud Services</a></li>
-                  </ul> 
-               </li>
-               
-               <li><a href="../ebusiness/Ebus1.php">Shop</a>
-               </li>
-           </ul>
-           </div>
+<body class = "homebody"><br>
+     <h1 class = "mainheading">Work Experience</h1>
+       <nav class="menu">
+          <button class="dropbtn"><a href="../homepage.html">Home</a></button>
+          <div class="dropdown">
+              <button class="dropbtn">Curriculum Vitae</button>
+              <div class="submenu">
+                  <a href="cv_page1.html">Personal Details</a>
+                  <a href="cv_page2.html">Education</a>
+                  <a href="cv_page3.html">Work Experience</a>
+              </div>
+          </div>
+         <div class="dropdown">
+             <button class="dropbtn">Interests</button>
+             <div class="submenu">
+                 <a href="../Interests/sports.html">Sports</a>
+                 <a href="../Interests/travel.html">Travel</a>
+                 <a href="../Interests/cloud.html">Cloud Services</a>
+             </div>
+         </div>
+         <button class="dropbtn"><a href="ebusiness/Ebus1.php">Shop</a></button>
+         </nav>
     
     <br/>
     
-    <div class = "cvcontent">
-    <h1 class = "mainheading">Work Experience</h1>
+    <div class = "homeparagraph">
     <p><strong>Company:</strong> Glandore Inn</p>
     <p><strong>Job Title:</strong> Bartender and Waiter</p>
     <p><strong>Year:</strong> April 2017 - Present</p>
     <br/>
     <p><strong>Company:</strong> Casey's Bar Union Hall</p>
     <p><strong>Job Title:</strong> Bartender and Waiter</p>
-    <p><strong>Year:</strong> April 2014 - December 2016</p>
-    <a href = "cv_page2.html" class="btn btn-dark">Previous</a>
+    <p><strong>Year:</strong> April 2014 - December 2016</p><br>
+   <button class="cvbutton"><a href="cv_page2.html">Previous Page</a></button>
     <br/>
-    <br/>
-    <a href="../homepage.html" class = "btn btn-success">Home</a>
     </div>
 </body>
 

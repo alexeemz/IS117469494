@@ -1,9 +1,110 @@
+
+.menu{
+    text-align:center;
+    z-index:1000;
+    font-family:georgia, serif;
+}
+.menu{
+    text-align:center;
+    z-index:1000;
+    font-family:georgia, serif;
+}
+
+.dropbtn {
+    background-color:#E64A19;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    background-color: #E64A19;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.submenu a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.submenu a:hover {background-color: #212121}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.menu{
+    background-color:#E64A19;
+}
+
+.dropbtn:hover {
+    background-color:#212121;
+}
+
+.dropbtn {
+    background-color:#E64A19;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    background-color: #E64A19;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.submenu a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.submenu a:hover {background-color: #212121}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.menu{
+    background-color:#E64A19;
+}
+
+.dropbtn:hover {
+    background-color:#212121;
+}
+
 #section1{
-    background-image: url("https://images.pexels.com/photos/531767/pexels-photo-531767.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
-    color:#022175;
+    background-image: url("https://images.pexels.com/photos/167762/pexels-photo-167762.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    color:white;
     background-repeat:no-repeat;
     background-size:cover;
     display:inline-block;
+    height:-90%;
 }
 
 #section2{
@@ -41,8 +142,8 @@
 }
 
 h2 {
-    background-color:black;
-    font-size:30px;
+    background-color:#E64A19;
+    color:white;
 }
 
 ul li {
@@ -52,6 +153,10 @@ ul li {
 
 p{
     border:white;
-    
+}
+
+a{
+    text-decoration:none;
+    color:white;
 }
 

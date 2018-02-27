@@ -3,6 +3,7 @@
     
     <head>
         <title>Select Product</title>
+        <link rel= "stylesheet" href= "../ebusiness.css" type = "text/css" />
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -10,20 +11,36 @@
         
     </head>
     <body>
+        <br>
         <h4>Select a Product</h4>
-        <br/>
-        <form method = "POST" action="Ebus2.php">
+        <br>
+        <div class="content">
+        <form method ="POST" action="Ebus2.php">
             
             <label for="salesforce">
                 <input type="radio" id ="salesforce" name ="product" checked onClick="disablebtnProceed()"/>
                 Salesforce @ $100
             </label>
             
-            <br/>
+            <br>
+            
+            <label for "cloud9">
+                <input type="radio" id="cloud9" name="product" checked onClick="disablebtnProceed()"/>
+                Cloud 9 @ $200
+            </label>
+            
+            <br>
             
             <label for "aws">
-                <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-                AWS @ $300
+                <input type="radio" id="aws" name="product" checked onClick="disablebtnProceed()"/>
+                Amazon Web Services @ $300
+            </label>
+            
+            <br>
+            
+            <label for "gmail">
+                <input type="radio" id="gmail" name="product" checked onClick="disablebtnProceed()"/>
+                Gmail @ $400
             </label>
             
             <br/>
@@ -50,7 +67,7 @@
         <br/>
         <button onCLick="calcSub()">Calculate Cost</button>
         <button><a role="button" href="Ebus1.php">Clear Choice</a></button>
-        
+        </div>
     </body>
     
 </html>

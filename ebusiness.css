@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image:url("https://images.pexels.com/photos/167762/pexels-photo-167762.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+}
+
+.content{
+    background-color:#6a7484;
+    text-align:center;
+    position:relative;
+}
