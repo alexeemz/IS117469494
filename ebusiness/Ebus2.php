@@ -7,12 +7,17 @@ session_start();
 <html>
     <head>
         <title>Enter Details</title>
-    </head>
+         <link rel= "stylesheet" href= "../ebusiness.css" type = "text/css" />
     
     <!--jQuery-->
     <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    </head>    
+    <script type="text/javascript" src="ebus2_validator.js"></script>
+    </head>
+ 
+    
     <body>
+        <br>
+        <div class="content">
         <h4>Please Enter Your Payment Details</h4>
         
         <form action="ebus_3.php" method="POST">
@@ -30,8 +35,8 @@ session_start();
         </form>
         <br/>
         <button onClick="ValidateDetails()">Validation</button>
+        </div>
         
-        <script type="text/javascript" src="ebus2_validator.js"></script>
         
         <?php
         //start session variables

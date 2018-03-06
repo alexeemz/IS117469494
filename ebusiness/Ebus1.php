@@ -14,6 +14,7 @@
         <br>
         <h4>Select a Product</h4>
         <br>
+        
         <div class="content">
         <form method ="POST" action="Ebus2.php">
             
@@ -46,20 +47,32 @@
             <br/>
             <br/>
             
-            <label for ="subtotal">
+            
+            
+            <label for ="SubTotal">
                 Sub Total
-                <input type="text" id="subtotal" value = "0.00" name="subtotal" readonly/>
+                <input type="text" id="SubTotal" value = "0.00" name="SubTotal" readonly/>
             </label>
             
-            <br/>
             
+            
+            
+            <br>
+            <label for="discount">
+                Discount @ 5%
+                <input type="text" id="discount" value="0.00" name="discount" readonly/>
+            </label>
+            <br>
+            <label for="vat">
+               Vat @ 10%
+               <input type="text" id="vat" value="0.00" name="vat" readonly/>
+            </label>
+            <br>
             <label for="total">
                 Total
-                <input type="hidden" id="total" value="0.00" name="total" readonly/>
+                <input type="text" id="total" value="0.00" name="total" readonly/>
             </label>
-            
-            <br/>
-            
+            <br>
             <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
         </form>

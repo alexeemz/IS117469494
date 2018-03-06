@@ -4,10 +4,11 @@
     z-index:1000;
     font-family:georgia, serif;
 }
-.menu{
-    text-align:center;
-    z-index:1000;
-    font-family:georgia, serif;
+
+.mainheading{
+    text-align: center;
+    color: white;
+    background-color:black;
 }
 
 .dropbtn {
@@ -30,7 +31,7 @@
     background-color: #E64A19;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1000;
+    z-index: 10000;
 }
 
 .submenu a {
@@ -38,6 +39,7 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    z-index:100;
 }
 
 .submenu a:hover {background-color: #212121}
@@ -48,6 +50,7 @@
 
 .menu{
     background-color:#E64A19;
+    z-index:100;
 }
 
 .dropbtn:hover {
@@ -74,7 +77,7 @@
     background-color: #E64A19;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index:100;
 }
 
 .submenu a {
@@ -139,10 +142,10 @@
 .section{
     text-align: center;
     font-family:Georgia, Serif;
+    z-index:1;
 }
 
 h2 {
-    background-color:#E64A19;
     color:white;
 }
 

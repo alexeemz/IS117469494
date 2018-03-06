@@ -11,4 +11,5 @@ body{
     background-color:#6a7484;
     text-align:center;
     position:relative;
+    float:left;
 }

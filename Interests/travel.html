@@ -3,11 +3,11 @@
     
     <title>Travel</title>
     <link rel= "stylesheet" href="../mystylesheet.css" type = "text/css"/>
-
+ <script type="text/javascript" src="travel.js"></script>
 </head>
 
 <body class="homebody">
-   <br> <h1 class="mainheading">Travel</h1>
+   <br> <h1 class="mainheading" id="travel">Travel</h1>
    
 	 <nav class="menu">
           <button class="dropbtn"><a href="../homepage.html">Home</a></button>
@@ -33,12 +33,19 @@
 	<br>
 	<br>
     <div class="homeparagraph">
-       I have a strong passion for travelling.<br>
-	<p><strong>Most travelled to:</strong> London<br>
-	<strong>Would Like to Visit:</strong> Asia<br>
-	<strong>Settle in:</strong> Australia</p>
+      <p> I have a strong passion for travelling.<br>
+      Click the buttons below to find out more!</p><br>
+	
+	<button class="travelbutton" onCLick="ShowLondon()">Favourite City</button><br><br>
+	<button class="travelbutton" onClick="ShowCambodia()">Would Like To Visit</button><br><br>
+	<button class="travelbutton" onClick="ShowIndia()">Furthest From Home I've Been</button>
+	    </div>
+	    
 	    <br>
-	    <br>
-	    <a href="../homepage.html">Home</a>
+	    <div class="pictures">
+	        <img src="London.jpeg" id="London" class="hide">
+	        <img src="Cambodia.jpeg" id="Cambodia" class="hide">
+	        <img src="India.jpeg" id="India" class="hide">
+	        
 	    </div>
 </body>
