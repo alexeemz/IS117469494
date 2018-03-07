@@ -1,5 +1,7 @@
 /* Global $  */
 
+
+//Display London and hide Others
 function ShowLondon(){
     var London =document.getElementById('London')
     London.className="show"
@@ -9,6 +11,7 @@ function ShowLondon(){
     India.className="hide"
 }
 
+//Display Cambodia and hide others
 function ShowCambodia(){
     var Cambodia =document.getElementById('Cambodia')
     Cambodia.className="show"
@@ -18,6 +21,8 @@ function ShowCambodia(){
     London.className="hide"
 }
 
+
+//Display India and hide others
 function ShowIndia(){
     var India =document.getElementById('India')
     India.className="show"

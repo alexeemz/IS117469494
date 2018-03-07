@@ -20,6 +20,7 @@ session_start();
         
         <h2>Xander's Cloud Store</h2>
         
+        <!-- Adding dropdown menu -->
         <nav class="menu">
           <button class="dropbtn"><a href="../homepage.html">Home</a></button>
           <div class="dropdown">
@@ -60,6 +61,7 @@ session_start();
             <button type="submit" id="btnPurchase" class="ebusbutton" disabled>Proceed with Purchase</button>
         </form>
         <br/>
+        <!-- Call function to ensure no fields are left blank -->
         <button onClick="ValidateDetails()" class="ebusbutton">Validation</button>
         </div>
         

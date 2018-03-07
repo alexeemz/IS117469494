@@ -12,6 +12,7 @@ session_start();
         
         <h2>Purchase Receipt</h2>
         
+        <!-- Adding dropdown menu-->
         <nav class="menu">
           <button class="dropbtn"><a href="../homepage.html">Home</a></button>
           <div class="dropdown">

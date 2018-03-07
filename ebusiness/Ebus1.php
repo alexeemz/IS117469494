@@ -13,7 +13,7 @@
     <body>
         
         <h2>Xander's Cloud Store</h2>
-        
+        <!-- Adding dropdown menu -->
         <nav class="menu">
           <button class="dropbtn"><a href="../homepage.html">Home</a></button>
           <div class="dropdown">
@@ -99,7 +99,11 @@
         </form>
         
         <br/>
+        
+        <!-- Call function to perform calculations -->
         <button onCLick="calcSub()" class="ebusbutton">Calculate Cost</button>
+        
+        <!-- reload page to clear data -->
         <button><a role="button" href="Ebus1.php" class="ebusbutton">Clear Choice</a></button>
         <br><br></div>
     </body>

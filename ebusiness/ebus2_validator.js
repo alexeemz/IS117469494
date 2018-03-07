@@ -3,13 +3,15 @@
 function ValidateDetails(){
     
     var pin;
-    var name
-    var email
+    var name;
+    var email;
     
+    //declare variables
     pin = document.getElementById("user_pin").value;
     name = document.getElementById("user_name").value;
     email = document.getElementById("user_email").value;
     
+    //ensure all fields are filled in
     if (pin==""){
         alert("Please enter your PIN");
         }
