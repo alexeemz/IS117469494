@@ -1,4 +1,11 @@
 
+a{
+    text-decoration:none;
+    color:white
+}
+
+
+
 .menu{
     text-align:center;
     z-index:1000;
@@ -101,6 +108,8 @@
     background-color:#212121;
 }
 
+
+
 #section1{
     background-image: url("https://images.pexels.com/photos/167762/pexels-photo-167762.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
     color:white;
@@ -158,8 +167,7 @@ p{
     border:white;
 }
 
-a{
-    text-decoration:none;
-    color:white;
-}
+
+
+
 

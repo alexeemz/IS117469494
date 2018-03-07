@@ -11,13 +11,36 @@
         
     </head>
     <body>
-        <br>
-        <h4>Select a Product</h4>
-        <br>
+        
+        <h2>Xander's Cloud Store</h2>
+        
+        <nav class="menu">
+          <button class="dropbtn"><a href="../homepage.html">Home</a></button>
+          <div class="dropdown">
+              <button class="dropbtn">Curriculum Vitae</button>
+              <div class="submenu">
+                  <a href="../CV/cv_page1.html">Personal Details</a>
+                  <a href="../CV/cv_page2.html">Education</a>
+                  <a href="../CV/cv_page3.html">Work Experience</a>
+              </div>
+          </div>
+         <div class="dropdown">
+             <button class="dropbtn">Interests</button>
+             <div class="submenu">
+                 <a href="../Interests/sports.html">Sports</a>
+                 <a href="../Interests/travel.html">Travel</a>
+                 <a href="../Interests/cloud.html">Cloud Services</a>
+             </div>
+         </div>
+         <button class="dropbtn"><a href="Ebus1.php">Shop</a></button>
+         </nav>
         
         <div class="content">
         <form method ="POST" action="Ebus2.php">
             
+            <h4>Select a Product</h4>
+            <br>
+            <br>
             <label for="salesforce">
                 <input type="radio" id ="salesforce" name ="product" checked onClick="disablebtnProceed()"/>
                 Salesforce @ $100
@@ -72,14 +95,14 @@
                 Total
                 <input type="text" id="total" value="0.00" name="total" readonly/>
             </label>
-            <br>
-            <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            <br><br>
+            <button type="submit" id="btnProceed" disabled class="ebusbutton">Add to Shopping Cart</button>
             
         </form>
         
         <br/>
-        <button onCLick="calcSub()">Calculate Cost</button>
-        <button><a role="button" href="Ebus1.php">Clear Choice</a></button>
+        <button onCLick="calcSub()" class="ebusbutton">Calculate Cost</button>
+        <button><a role="button" href="Ebus1.php" class="ebusbutton">Clear Choice</a></button>
         </div>
     </body>
     

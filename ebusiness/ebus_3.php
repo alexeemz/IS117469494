@@ -10,14 +10,57 @@ session_start();
     </head>
     <body>
         
+        <h2>Purchase Receipt</h2>
+        
+        <nav class="menu">
+          <button class="dropbtn"><a href="../homepage.html">Home</a></button>
+          <div class="dropdown">
+              <button class="dropbtn">Curriculum Vitae</button>
+              <div class="submenu">
+                  <a href="../CV/cv_page1.html">Personal Details</a>
+                  <a href="../CV/cv_page2.html">Education</a>
+                  <a href="../CV/cv_page3.html">Work Experience</a>
+              </div>
+          </div>
+         <div class="dropdown">
+             <button class="dropbtn">Interests</button>
+             <div class="submenu">
+                 <a href="../Interests/sports.html">Sports</a>
+                 <a href="../Interests/travel.html">Travel</a>
+                 <a href="../Interests/cloud.html">Cloud Services</a>
+             </div>
+         </div>
+         <button class="dropbtn"><a href="Ebus1.php">Shop</a></button>
+         </nav>
+        
         <br>
         <div class="content">
-        <br><h4>RECEIPT</h4>
+        <h4>RECEIPT</h4>
         <br>
-        <?php
-        //Echo session variables that were set on previous page
-        echo "Total is " . $_SESSION["total"] . ".";
+        
+        
+         <?php
+        // Set session variables
+        $_SESSION["user_name"] = $_POST["user_name"];
+        $_SESSION["user_email"] = $_POST["user_email"];
+        
         ?>
+        
+    <!--Echo session variables that were set on previous page-->
+        <?php
+        echo "Name: " . $_SESSION["user_name"] . ".";
+         ?>
+         <br><br>
+         <?php
+         echo "E-mail: " . $_SESSION["user_email"] . ".";
+        ?>
+        <br><br>
+        <?php
+        echo "Total price: " . $_SESSION["total"] . ".";
+        ?>
+        <br>
+        <h4><strong>Thank You for Shopping With Us!</strong></h4>
         </div>
+        
     </body>
 </html>
