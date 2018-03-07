@@ -42,7 +42,7 @@ session_start();
          <button class="dropbtn"><a href="ebusiness/Ebus1.php">Shop</a></button>
          </nav>
         
-        
+        <br>
         <div class="content">
         <h4>Please Enter Your Payment Details</h4>
         
@@ -59,6 +59,8 @@ session_start();
             <input type="text" id="user_email" name="user_email" placeholder="email">
             <br><br>
             <button type="submit" id="btnPurchase" class="ebusbutton" disabled>Proceed with Purchase</button>
+            <br><br>
+            <p>Please validate details before proceeding.</p>
         </form>
         <br/>
         <!-- Call function to ensure no fields are left blank -->

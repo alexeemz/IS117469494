@@ -21,6 +21,8 @@ function calcSub(){
    argSubTotal = 400;
     }
     
+    var hidden;
+    
     calcTotal(argSubTotal);
     
 }
@@ -48,6 +50,7 @@ function display(parm1, parm2, parm3, parm4){
 
 function enablebtnProceed() {
     $('#btnProceed').prop('disabled', false);
+    document.getElementById('btnProceed').style.display="block";
 }
 
 function disablebtnProceed() {

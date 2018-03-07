@@ -73,6 +73,12 @@ body{
 
 #btnProceed{
     background-color:#34db48;
+      border:2px;
+    border-radius:10px;
+    color:white;
+    width:200px;
+    height:40px;
+    text-decoration:none;
 }
 
 #btnPurchase{
@@ -87,7 +93,6 @@ body{
     width:200px;
     height:40px;
     text-decoration:none;
-    color:white;
 }
 
 a{
