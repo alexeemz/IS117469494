@@ -58,8 +58,8 @@ session_start();
         <?php
         echo "Total price: " . $_SESSION["total"] . ".";
         ?>
-        <br>
-        <h4><strong>Thank You for Shopping With Us!</strong></h4>
+        <br><br>
+        <h4><strong>Thank You for Shopping With Us!</strong><br><br></h4>
         </div>
         
     </body>

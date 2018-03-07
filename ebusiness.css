@@ -20,6 +20,7 @@ body{
     text-align:center;
     z-index:1000;
     font-family:georgia, serif;
+    color:white;
 }
 
 .dropbtn {
@@ -73,4 +74,9 @@ body{
     color:white;
     width:200px;
     height:40px;
+}
+
+a{
+    color:white;
+    text-decoration:none;
 }

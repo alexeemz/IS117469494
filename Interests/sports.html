@@ -4,7 +4,7 @@
 <head>
 <title>Sports</title>
 <link rel= "stylesheet" href= "../mystylesheet.css" type = "text/css" />
-
+<script type="text/javascript" src="sports.js"></script>
 
 
 <body class="homebody"><br>
@@ -27,18 +27,25 @@
                  <a href="cloud.html">Cloud Services</a>
              </div>
          </div>
-         <button class="dropbtn"><a href="ebusiness/Ebus1.php">Shop</a></button>
+         <button class="dropbtn"><a href="../ebusiness/Ebus1.php">Shop</a></button>
          </nav>
 <br>
 <br>
 <div class="homeparagraph">
 <p>I am an active individual who likes to keep myself busy.<br>
- I train in JuJutsu twice a week and I am also a member of the UCC Badminton team.</p>
-<br><p><strong>Sport:</strong> German JuJutsu</p>
-<p><strong>Training:</strong> Tuesday and Thursday</p>
-<br/>
-<p><strong>Sport:</strong> Badminton</p>
-<p><strong>Training:</strong> Wednesday</p>
-<br/>
+ I train in JuJutsu twice a week and I am also a member of the UCC Badminton team.<br>
+Interact with the buttons below to learn more!</p>
 </div>
+<br>
+<div class="sportcontent">
+    
+    <button class="sportsbutton" onClick="showJuJu()">Ju-Jutsu</button>
+    <button class="sportsbutton" onClick="showBadminton()">Badminton</button>
+    <br><br>
+    <p class="sportpara" id="juju">German ju-jutsu (or German jiu-jitsu) is a martial art related to traditional Japanese jujutsu, developed in Germany in the 1960s using techniques from jujutsu, judo, karate and various other traditional and modern martial arts.
+    <br><img src="JuJutsu.jpg" class="sportpic"><br></p>
+    <p class="sportpara" id="badminton">Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger teams, the most common forms of the game are "singles" (with one player per side) and "doubles" (with two players per side).
+    <br><img src="Badminton.jpg" class="sportpic"><br></p>
+</div>
+
 </body>

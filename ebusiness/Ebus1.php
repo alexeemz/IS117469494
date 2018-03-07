@@ -34,7 +34,7 @@
          </div>
          <button class="dropbtn"><a href="Ebus1.php">Shop</a></button>
          </nav>
-        
+        <br>
         <div class="content">
         <form method ="POST" action="Ebus2.php">
             
@@ -78,8 +78,6 @@
             </label>
             
             
-            
-            
             <br>
             <label for="discount">
                 Discount @ 5%
@@ -103,7 +101,7 @@
         <br/>
         <button onCLick="calcSub()" class="ebusbutton">Calculate Cost</button>
         <button><a role="button" href="Ebus1.php" class="ebusbutton">Clear Choice</a></button>
-        </div>
+        <br><br></div>
     </body>
     
 </html>
