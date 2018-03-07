@@ -34,7 +34,7 @@ session_start();
          <button class="dropbtn"><a href="Ebus1.php">Shop</a></button>
          </nav>
         
-        <br>
+        <br><br>
         <div class="content">
         <h4>RECEIPT</h4>
         <br>
