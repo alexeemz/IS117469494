@@ -104,7 +104,7 @@
         <button onCLick="calcSub()" class="ebusbutton">Calculate Cost</button>
         
         <!-- reload page to clear data -->
-        <button><a role="button" href="Ebus1.php" class="ebusbutton">Clear Choice</a></button>
+        <button class="ebusbutton"><a role = "button" href="Ebus1.php">Clear Choice</a></button>
         <br><br></div>
     </body>
     

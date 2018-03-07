@@ -57,7 +57,7 @@ session_start();
             <br>
             <label for="user_email">E-mail:</label>
             <input type="text" id="user_email" name="user_email" placeholder="email">
-            <br>
+            <br><br>
             <button type="submit" id="btnPurchase" class="ebusbutton" disabled>Proceed with Purchase</button>
         </form>
         <br/>
